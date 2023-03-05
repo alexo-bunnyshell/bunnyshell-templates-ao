@@ -17,10 +17,10 @@ stack:
     - name: mysql
       version: '8.0'
     - name: redis
-      version: 'latest'
+      version: '9.9.9'
     - name: meilisearch
-      version: 'latest'
+      version: '9.9.9'
     - name: pailpit
-      version: 'latest'
+      version: '9.9.9'
     
 discoverable: true
