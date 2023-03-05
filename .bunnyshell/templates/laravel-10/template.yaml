@@ -1,0 +1,26 @@
+name: Laravel 10
+description: An environment for Laravel 10.
+tags:
+   - PHP
+   - Laravel
+   - mysql
+   - meilisearch
+   - redis
+   - mailpit
+icons: [ 'php', 'mysql', 'meilisearch', 'redis', 'mailpit' ]
+stack:
+  packages:
+    - name: php
+      version: '8.2'
+    - name: laravel
+      version: '10'
+    - name: mysql
+      version: '8.0'
+    - name: redis
+      version: 'latest'
+    - name: meilisearch
+      version: 'latest'
+    - name: pailpit
+      version: 'latest'
+    
+discoverable: true
