@@ -1,6 +1,8 @@
 kind: Environment
 name: laravel10
 type: primary
+environmentVariables:
+    VERSION: 2
 components:
     -
         kind: Application
